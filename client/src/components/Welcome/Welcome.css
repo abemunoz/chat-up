@@ -1,0 +1,72 @@
+html, body, button {
+  font-family: "Lato", "Avenir", "Adobe Heiti Std", "Segoe UI", "Trebuchet MS", "sans‑serif";
+  padding: 0;
+  margin: 0;
+}
+
+#root {
+  height: 100vh;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+.heading {
+  font-size: 3em;
+  color: #F7FAF8;
+  padding-bottom: 7px;
+}
+
+.outer {
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  align-items: center;
+  background-color: #00AB61;
+  height: 100vh;
+}
+
+.inner {
+  width: 25%;
+}
+
+@media (min-width: 480px) and (max-width: 1024px) {
+  .inner {
+    width: 50%;
+  }
+}
+
+@media (min-width: 120px) and (max-width: 480px) {
+  .outer {
+    height: 100%;
+  }
+  .inner {
+    width: 90%;
+  }
+}
+
+.top25 {
+  margin-top: 25px;
+}
+
+.input {
+  border-radius: 5px;
+  padding: 15px 20px;
+  width: 100%;
+}
+
+.button {
+    color: black;
+    font-size: 1rem;
+    font-weight: 400;
+    text-transform: uppercase;
+    text-decoration: none;
+    letter-spacing: .15rem;
+    background: #F7FAF8;
+    padding: 16px;
+    border-radius: 5px;
+    display: inline-block;
+    border: none;
+    width: 100%;
+}
